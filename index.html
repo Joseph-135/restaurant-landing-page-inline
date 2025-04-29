@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Joseph Ehru restaurant">
+  <title>Joseph Le Petit Bistro</title>
+</head>
+<body style="margin: 0;
+             padding: 0;
+             box-sizing: border-box; width: 100%;
+             background-color: whitesmoke;font-family: arial, sans-serif;
+             font-size: 14px;">
+  <div style="margin: 0;
+              padding: 0;
+              box-sizing: border-box;">
+  <header>
+    <nav 
+        style="width: 100%; 
+               max-width: 1200px;
+               margin: 0 auto;
+               padding: 20px;
+               background: rgba(245, 245, 245, 0.9);
+               font-size: 1.5rem;
+               color: skyblue;
+               font-weight: bolder;
+               position: fixed;
+               top: 0;
+               left: 50%;
+               transform: translateX(-50%);
+               z-index: 100;
+               box-sizing: border-box;
+               border: 5px outset beige;
+               outline: 5px ridge whitesmoke;
+               border-radius: 10px;">
+      <ul 
+        style="list-style: none;
+               display: flex; 
+               justify-content: center;
+               gap: 50px;
+               margin: 0;
+               padding: 0;">
+        <li> <a 
+                href="index.html"
+                style="text-decoration: none;
+                ">
+                Home
+                </a>
+               </li>
+        <li> <a href="#menu"
+                style="text-decoration: none;">
+                Menu
+              </a> 
+            </li>
+        <li> <a href="#about-us"
+                style="text-decoration: none;">
+                About Us
+              </a> 
+            </li>
+        <li> <a href="#reservations"
+                style="text-decoration: none;">
+                Reservations
+              </a>
+            </li>
+        <li><a href="#contact"
+               style="text-decoration: none;">
+               Contact
+              </a>
+            </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero"
+             style="width: 90%;
+                    max-width: 800px;
+                    margin: 70px auto;
+                    padding: 40px;
+                    text-align: center;
+                    font-size: 1.3rem;
+                    background:linear-gradient(to right, beige, whitesmoke);
+                    overflow: hidden;">
+      <h1>
+        'Where Fresh Ingredients Meet Timeless Recipes'
+      </h1>
+      <button class="CTA"
+              style="margin-bottom: 10px;
+                     padding: 12px 25px;
+                     background: transparent;
+                     border: 3px solid skyblue;
+                     font-weight: bold;
+                     border-radius: 8px;
+                     cursor: pointer;
+                     transition: all 0.3s" onmouseover="this.style.backgroundColor='skyblue'" onmouseout="this.style.backgroundColor='transparent'">
+        Book Your Table Tonight
+      </button>
+      <img src="images/pexels-cristian-rojas-8230026.jpg" alt="Fine dining cuisine"
+            style="display: block;
+                  width: 100%;
+                  max-height: 400px;
+                  object-fit: cover;
+                  outline: 3px outset crimson;
+                  border-radius: 10px;
+                  margin-top: 30px;
+                  ">
+    </section>
+    <section style="width: 100%;
+                    margin: 40px auto;
+                    padding: 30px 0;
+                    display: flex;
+                    justify-content: center;
+                    gap: 200px;
+                    background: linear-gradient(to left, beige, whitesmoke);
+                    font-size: 1rem;
+                    line-height: 1.8;">
+      <h2 style="display: flex;
+                  align-items: center;
+                  font-size: 1.5rem;">
+        Cuisine Highlights
+      </h2>
+      <ul style="min-width: 250px;
+                 font-weight: bolder;
+                 font-size: 1.3rem;
+                 ">
+        <li>Farm-to-table italian</li>
+        <li>Mediterranean small plates</li>
+        <li>Wood-fired pizzas</li>
+        <li>Handcrafted pastas</li>
+        <li>Seasonal desserts</li>
+      </ul>
+    </section>
+    <section id="menu" 
+             style="width: 100%;
+                    max-width: 800px;
+                    margin: 30px auto;
+                    display: flex;
+                    justify-content: center;
+                    gap: 200px;
+                    background: linear-gradient(to left, beige, whitesmoke);
+                    font-size: 1.3rem;
+                    line-height: 2;">
+      <h2 style="display: flex;
+                  align-items: center;">
+        Menu Preview
+      </h2>
+      <ul style="font-weight: bolder;
+                 font-size: 1.5rem;
+                 ">
+        <li>Truffle Risotto</li>
+        <p style="font-style: italic;
+                  font-weight: lighter;">
+          Creamy Arborio rice, wild mushrooms, Parmigiano Reggiano
+        </p>
+        <li>Grilled Octopus</li>
+        <p style="font-style: italic;
+                  font-weight: lighter;
+                  font-size: 1.2rem;">
+          Charred tentacles, Lemon gremolata, smoked paprika oil
+        </p>
+        <li>Lamb Chops</li>
+        <p style="font-style: italic;
+                  font-weight: lighter;
+                  font-size: 1.2rem;">
+          Herb-marinated, roasted garlic puree, mint chimichurri
+        </p>
+        <li>Tiramisu</li>
+        <p style="font-style: italic;
+                  font-weight: lighter;
+                  font-size: 1.2rem;">
+          Classic espresso-soaked ladyfingers, mascarpone cream
+        </p>
+      </ul>
+    </section>
+    <section id="about-us"
+              style="width: 90%;
+              max-width: 800px;
+              margin: 40px auto;
+              padding: 40px;
+              border-radius: 15px;
+              text-align: center;
+              background:linear-gradient(to right, beige, whitesmoke);">
+      <h2 style="font-size: 1.7rem;">
+        About Us
+      </h2>
+      <p style="font-size: 1.4rem;
+                line-height: 1.6;">
+        "Family-owned since 1998, we blend traditional recipes with modern techniques. Our chefs source Ingredients daily from local farms and fisheries"
+      </p>
+    </section>
+    <section id="contact"
+             style="width: 90%;
+             max-width: 800px;
+             margin: 40px auto;
+             padding: 40px;
+             text-align: center;
+             background:linear-gradient(to left, beige, whitesmoke);
+             border-radius: 15px;">
+      <h2 style="font-size: 1.7rem;">
+        Contact Essentials
+      </h2>
+      <address style="font-size: 1.4rem;
+                      line-height: 1.8;">
+       <div> 123 Culinary Lane, Flavor City, FC 45678</div>
+      
+      <a href="tel: +23412345678"
+      style="display: block;
+             text-decoration: none;
+             color: inherit;">
+      (555)123456789
+      </a>
+      <a href="maailto:hello@lepetitbistro.com"
+      style="display: block;
+      text-decoration: none;
+      color: skyblue;">hello@lepetitbistro.com</a>
+    </address>
+    </section>
+    <section id="reservations"
+             style="width: 100%;
+             margin: 0 auto;
+             padding: 30px 0;
+             display: flex;
+             justify-content: center;
+             gap: 200px;
+             background: linear-gradient(to right, beige, whitesmoke);
+             line-height: 2;">       
+      <h2>
+        Opening Hours
+      </h2>
+      <ul>
+        <li>
+          <time datetime="Mo-Th 16:00-22:00"
+          style="font-size: 1.3rem;">
+            Mon-Thu: 4PM - 10PM
+          </time>
+        </li>
+        <li>
+          <time datetime="Fri-Su 11:30-23:00"
+          style="font-size: 1.3rem;">
+            Fri-Su: 11:30AM - 11PM
+          </time>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer style="width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 30px 0;
+                display: flex;
+                justify-content: center;
+                background: linear-gradient(to left, beige, whitesmoke);
+                font-size: 1.3rem;">
+    <p>
+      &copy; Joseph Ehru. All rights reserved
+    </p>
+  </footer>
+</div>
+</body>
+</html>
